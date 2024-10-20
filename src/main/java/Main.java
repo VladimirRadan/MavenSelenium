@@ -50,11 +50,12 @@ public class Main {
 
         String expectedText = "You logged into a secure area!";
 
-        String actualText = loggedInUserText.getText(); // = You logged into a secure area!×
+        String actualText = loggedInUserText.getText();// = You logged into a secure area!×
+        String attr = loggedInUserText.getAttribute("");
 
         //System.out.println(actual);
 
-        String expectedColor = "rgba(93, 164, 35, 0)";
+        String expectedColor = "rgba(93, 164, 35, 1)";
 
         String actualColor = loggedInUserText.getCssValue("background-color");
 

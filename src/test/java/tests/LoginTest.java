@@ -6,7 +6,7 @@ public class LoginTest {
 
     @Test
     public void loginUser(){
-
+        System.out.println("Test");
     }
 
 
